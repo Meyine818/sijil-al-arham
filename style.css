@@ -1,0 +1,234 @@
+/* ===========================
+   الإعدادات العامة
+=========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeae2;
+    background-image: 
+        radial-gradient(ellipse at top, #fdf6e8 0%, #f0ddb0 70%);
+    min-height: 100vh;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #2c1a0e;
+    padding: 24px 16px;
+}
+
+/* ===========================
+   الغلاف والإطارات
+=========================== */
+.غلاف {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* الإطار الخارجي: حد مزدوج ذهبي */
+.إطار-خارجي {
+    border: 3px double #c9922a;
+    border-radius: 2px;
+    padding: 8px;
+    background-color: #fdf6e8;
+    box-shadow: 
+        0 4px 20px rgba(122, 92, 30, 0.2),
+        inset 0 0 30px rgba(201, 146, 42, 0.05);
+}
+
+/* الإطار الداخلي: حد رفيع */
+.إطار-داخلي {
+    border: 1px solid #e8c97a;
+    padding: 32px 36px;
+    text-align: right;
+}
+
+/* ===========================
+   الزخارف
+=========================== */
+.زخرفة {
+    text-align: center;
+    color: #c9922a;
+    font-size: 1.3rem;
+    letter-spacing: 12px;
+    margin: 8px 0 16px;
+}
+
+.فاصل-ذهبي {
+    border: none;
+    border-top: 1px solid #d4b06a;
+    margin: 20px 0;
+    position: relative;
+}
+
+/* ===========================
+   العناوين
+=========================== */
+h1 {
+    text-align: center;
+    color: #7a5c1e;
+    font-size: clamp(1.3rem, 4vw, 1.9rem);
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+
+.عنوان-فرعي {
+    text-align: center;
+    color: #9a7a3e;
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+}
+
+h2 {
+    color: #7a5c1e;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    border-right: 3px solid #c9922a;
+}
+
+/* ===========================
+   النصوص
+=========================== */
+p {
+    line-height: 2;
+    margin-bottom: 14px;
+    font-size: 0.97rem;
+}
+
+.تاريخ {
+    text-align: center;
+    color: #9a7a3e;
+    font-style: italic;
+    font-size: 0.88rem;
+}
+
+/* الأبيات الشعرية */
+.أبيات {
+    background-color: rgba(201, 146, 42, 0.07);
+    border-right: 3px solid #c9922a;
+    border-radius: 0 4px 4px 0;
+    padding: 14px 18px;
+    margin: 16px 0;
+    line-height: 2.4;
+    color: #5a3e1b;
+    text-align: center;
+    font-style: italic;
+}
+
+/* ===========================
+   الزر
+=========================== */
+button {
+    display: block;
+    margin: 24px auto 8px;
+    padding: 13px 44px;
+    background: linear-gradient(135deg, #7a5c1e, #c9922a);
+    color: #fff;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(122, 92, 30, 0.3);
+    transition: all 0.25s;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(122, 92, 30, 0.4);
+}
+
+/* ===========================
+   صفحة السجل
+=========================== */
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #d4b06a;
+    border-radius: 5px;
+    text-align: right;
+    margin-bottom: 16px;
+    background-color: #fff;
+    font-family: 'Georgia', serif;
+}
+
+input:focus {
+    outline: none;
+    border-color: #7a5c1e;
+}
+
+.بطاقة {
+    background: #fff;
+    border: 1px solid #d4b06a;
+    border-top: 3px solid #c9922a;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(122, 92, 30, 0.08);
+}
+
+.اسم {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #7a5c1e;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f0ddb0;
+}
+
+.صف {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px dotted #f0ddb0;
+    font-size: 0.9rem;
+}
+
+.صف:last-child {
+    border-bottom: none;
+}
+
+.تسمية {
+    color: #9a7a3e;
+}
+.جدول {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    margin-top: 8px;
+}
+
+.جدول th {
+    background-color: #f5ead5;
+    color: #7a5c1e;
+    padding: 5px 8px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #e8c97a;
+}
+
+.جدول td {
+    padding: 5px 8px;
+    border: 1px solid #f0ddb0;
+    text-align: center;
+    color: #2c1a0e;
+}
+
+.جدول td.تسمية {
+    background-color: #fdf6e8;
+    color: #7a5c1e;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* ===========================
+   الهاتف
+=========================== */
+@media (max-width: 480px) {
+    .إطار-داخلي {
+        padding: 20px 16px;
+    }
+}

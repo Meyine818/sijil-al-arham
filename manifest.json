@@ -1,0 +1,17 @@
+{
+    "name": "تواريخ وفيات بعض الأرحام",
+    "short_name": "سجل الأرحام",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#f5ead5",
+    "theme_color": "#7a5c1e",
+    "lang": "ar",
+    "dir": "rtl",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
