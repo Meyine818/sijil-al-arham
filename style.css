@@ -112,7 +112,7 @@ p {
     margin: 16px 0;
     line-height: 2.4;
     color: #5a3e1b;
-    text-align: center;
+    text-align: right;
     font-style: italic;
     font-size: 0.9em;
 }
@@ -252,4 +252,5 @@ input:focus {
     display: none;
     padding: 12px 0 4px;
 }
+
 
