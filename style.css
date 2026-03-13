@@ -82,6 +82,7 @@ h1 {
 h2 {
     color: #7a5c1e;
     font-size: 1.05rem;
+    margin-top: 20px;
     margin-bottom: 10px;
     padding-right: 10px;
     border-right: 3px solid #c9922a;
@@ -260,6 +261,7 @@ input:focus {
     color: #7a5c1e;
     margin: 16px 0;
 }
+
 
 
 
