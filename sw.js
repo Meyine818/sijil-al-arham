@@ -1,7 +1,5 @@
-// اسم الكاش: إذا عدّلت التطبيق غيّر الرقم إلى v2 وهكذا
-const اسم_الكاش = 'سجل-الأرحام-v2';
+const اسم_الكاش = 'سجل-الأرحام-v3';
 
-// قائمة الملفات التي نحفظها للعمل بدون إنترنت
 const الملفات = [
     'index.html',
     'سجل.html',
@@ -10,21 +8,30 @@ const الملفات = [
     'manifest.json'
 ];
 
-// عند تثبيت الـ PWA: احفظ كل الملفات
 self.addEventListener('install', event => {
     event.waitUntil(
         caches.open(اسم_الكاش).then(cache => {
             return cache.addAll(الملفات);
         })
     );
+    self.skipWaiting();
 });
 
-// عند طلب أي ملف: خذه من الكاش أولاً
+self.addEventListener('activate', event => {
+    event.waitUntil(
+        caches.keys().then(keys => {
+            return Promise.all(
+                keys.filter(key => key !== اسم_الكاش)
+                    .map(key => caches.delete(key))
+            );
+        })
+    );
+});
+
 self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request).then(response => {
             return response || fetch(event.request);
         })
     );
-
 });
