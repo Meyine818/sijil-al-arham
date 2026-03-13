@@ -232,3 +232,22 @@ input:focus {
         padding: 20px 16px;
     }
 }
+
+.عنوان-قسم {
+    color: #7a5c1e;
+    font-size: 1.05rem;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d4b06a;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+.عنوان-قسم:hover {
+    color: #c9922a;
+}
+
+.محتوى-قسم {
+    display: none;
+    padding: 12px 0 4px;
+}
