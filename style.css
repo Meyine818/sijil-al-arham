@@ -261,7 +261,19 @@ input:focus {
     color: #7a5c1e;
     margin: 16px 0;
 }
+.سهم {
+    font-size: 0.8rem;
+    color: #c9922a;
+    margin-right: 6px;
+}
 
+.تلميح {
+    text-align: center;
+    color: #9a7a3e;
+    font-size: 0.82rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
 
 
 
