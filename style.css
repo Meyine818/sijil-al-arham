@@ -114,6 +114,7 @@ p {
     color: #5a3e1b;
     text-align: center;
     font-style: italic;
+    font-size: 0.9em;
 }
 
 /* ===========================
@@ -251,3 +252,4 @@ input:focus {
     display: none;
     padding: 12px 0 4px;
 }
+
