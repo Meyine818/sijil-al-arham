@@ -101,7 +101,7 @@ p {
     text-align: center;
     color: #9a7a3e;
     font-style: italic;
-    font-size: 0.88rem;
+    font-size: 0.9em;
 }
 
 /* الأبيات الشعرية */
@@ -261,6 +261,7 @@ input:focus {
     color: #7a5c1e;
     margin: 16px 0;
 }
+
 
 
 
