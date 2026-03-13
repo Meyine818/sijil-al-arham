@@ -252,5 +252,14 @@ input:focus {
     display: none;
     padding: 12px 0 4px;
 }
+.تنبيه {
+    border: 1px solid #d4b06a;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 0.88rem;
+    color: #7a5c1e;
+    margin: 16px 0;
+}
+
 
 
