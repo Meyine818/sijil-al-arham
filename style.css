@@ -274,7 +274,13 @@ input:focus {
     font-style: italic;
     margin-bottom: 10px;
 }
-
+.تلميح-عنوان {
+    display: block;
+    font-size: 0.75rem;
+    color: #c9922a;
+    font-style: italic;
+    margin-top: 3px;
+}
 
 
 
