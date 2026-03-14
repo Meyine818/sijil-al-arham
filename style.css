@@ -279,7 +279,8 @@ input:focus {
     font-size: 0.75rem;
     color: #c9922a;
     font-style: italic;
-    margin-top: 3px;
+    margin-right: 8px;
+   float: left;
 }
 
 
