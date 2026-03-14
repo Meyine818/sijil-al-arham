@@ -298,5 +298,7 @@ input:focus {
     padding: 0;
     margin: 0;
     backdrop-filter: blur(4px);
+   outline: none;
+-webkit-appearance: none;
 }
 
