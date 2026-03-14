@@ -280,6 +280,7 @@ input:focus {
     color: #c9922a;
     font-style: italic;
     text-align: left;
+    margin-top: 2px;
 }
 
 
