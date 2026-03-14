@@ -40,8 +40,7 @@
         عداد.textContent = 'عدد النتائج: ' + قائمة.length + ' من أصل ' + البيانات.length;
         if (قائمة.length === 0) { منطقة.innerHTML = '<p>لم يُعثر على نتائج</p>'; return; }
         منطقة.innerHTML = قائمة.map(ش => `
-            <div class="بطاقة">
-                <div class="اسم">${ش['الاسم']}</div>
+            <div class="بطاقة"><div class="اسم">${ش['الاسم']}  (${ش['الفرع']})</div>
                 <table class="جدول">
                     <tr><th></th><th>هجري</th><th>ميلادي</th></tr>
                     <tr>
