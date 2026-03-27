@@ -306,7 +306,6 @@ input:focus {
     color: #5a3e1b;
     font-size: 1rem;
     font-weight: bold;
-    background-color: rgba(201, 146, 42, 0.1);
     padding: 10px 14px;
     margin: 16px 0;
 }
