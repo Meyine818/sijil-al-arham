@@ -302,12 +302,12 @@ input:focus {
 -webkit-appearance: none;
 }
 .مصمم {
-    text-align: center;
-    color: #c9922a;
+    text-align: left;
+    color: #5a3e1b;
     font-size: 1rem;
     font-weight: bold;
-    border-top: 1px solid #d4b06a;
-    border-bottom: 1px solid #d4b06a;
-    padding: 8px 0;
+    background-color: rgba(201, 146, 42, 0.1);
+    border-right: 3px solid #c9922a;
+    padding: 10px 14px;
     margin: 16px 0;
 }
