@@ -301,4 +301,14 @@ input:focus {
    outline: none;
 -webkit-appearance: none;
 }
+.مصمم {
+    text-align: center;
+    color: #7a5c1e;
+    font-size: 1rem;
+    font-weight: bold;
+    border-top: 1px solid #d4b06a;
+    border-bottom: 1px solid #d4b06a;
+    padding: 8px 0;
+    margin: 16px 0;
+}
 
