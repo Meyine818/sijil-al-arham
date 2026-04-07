@@ -116,6 +116,13 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js');
         }
+        function إغلاق_الشاشة() {
+    document.getElementById('شاشة-البداية').style.display = 'none';
+}
+
+setTimeout(function() {
+    إغلاق_الشاشة();
+}, 5000);
     </script>
     <script src="script.js"></script>
     <script>
