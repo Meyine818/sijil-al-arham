@@ -336,56 +336,25 @@ input:focus {
     padding: 10px 14px;
     margin: 16px 0;
 }
-/* ====================== قسم المزايا في الصفحة الرئيسية ====================== */
-.قسم-المزايا {
-    max-width: 850px;
-    margin: 45px auto;
-    padding: 30px 25px;
-    background-color: #f9f5eb;
-    border: 1px solid #d4c3a3;
-    border-radius: 12px;
+/* ملحوظة المزايا - نفس ستايل العناوين الأولى والثانية */
+.ملحوظة-رئيسية {
+    color: #5c4033;                    /* نفس لون العناوين الرئيسية */
+    font-weight: bold;
+    font-size: 1.15rem;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d4c3a3;   /* خط تحتي خفيف مثل باقي العناوين */
     text-align: center;
-    box-shadow: 0 4px 15px rgba(92, 64, 51, 0.08);
 }
 
-.قسم-المزايا h2 {
-    color: #5c4033;
-    font-size: 1.6rem;
-    margin-bottom: 25px;
-    padding-bottom: 12px;
-    border-bottom: 2px solid #d4c3a3;
-}
-
-.قسم-المزايا ul {
-    text-align: right;
-    display: inline-block;
-    margin: 0 auto 25px auto;
-    padding-left: 20px;
-}
-
-.قسم-المزايا li {
-    margin: 13px 0;
-    font-size: 1.07rem;
+/* تحسين المحتوى داخل القسم */
+.محتوى-قسم p {
+    margin: 12px 0;
     line-height: 1.75;
     color: #333;
 }
 
-.ملحوظة {
-    background-color: #fff9f0;
-    border: 1px solid #e6d5b8;
-    border-radius: 10px;
-    padding: 20px 25px;
-    margin: 30px auto;
-    max-width: 720px;
-    font-size: 1.04rem;
-    line-height: 1.8;
-    color: #444;
-    font-style: italic;
-}
-
-.توفيق {
-    margin-top: 20px;
-    font-weight: bold;
-    color: #5c4033;
-    font-size: 1.15rem;
+/* لجعل النقاط أوضح */
+.محتوى-قسم p:first-of-type {
+    margin-top: 8px;
 }
