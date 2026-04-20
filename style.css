@@ -336,3 +336,75 @@ input:focus {
     padding: 10px 14px;
     margin: 16px 0;
 }
+/* قسم المزايا في الصفحة الرئيسية */
+.قسم-المزايا {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 30px 25px;
+    background-color: #f9f5eb;
+    border: 1px solid #d4c3a3;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.قسم-المزايا h2 {
+    color: #5c4033;
+    font-size: 1.55rem;
+    margin-bottom: 22px;
+    border-bottom: 2px solid #d4c3a3;
+    padding-bottom: 12px;
+}
+
+.قسم-المزايا ul {
+    text-align: right;
+    display: inline-block;
+    margin: 0 auto 25px;
+    padding: 0 30px;
+    list-style-position: inside;
+}
+
+.قسم-المزايا li {
+    margin: 12px 0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.ملحوظة {
+    background-color: #fffaf0;
+    border: 1px solid #e6d5b8;
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin: 25px auto;
+    max-width: 720px;
+    font-size: 1.02rem;
+    line-height: 1.75;
+    color: #444;
+    font-style: italic;
+}
+
+.توفيق {
+    margin-top: 25px;
+    font-weight: bold;
+    color: #5c4033;
+    font-size: 1.1rem;
+}
+
+/* زر الدخول (يمكنك تعديله حسب ستايلك الحالي) */
+.زر-الدخول {
+    display: inline-block;
+    background-color: #5c4033;
+    color: white;
+    padding: 16px 45px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 20px auto;
+    transition: all 0.3s;
+}
+
+.زر-الدخول:hover {
+    background-color: #8b5a2b;
+    transform: translateY(-2px);
+}
