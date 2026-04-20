@@ -156,16 +156,18 @@ setTimeout(function() {
 }, 3000);
     </script>
     <script src="script.js"></script>
-    <script>
-        function toggleSection(id) {
-            const محتوى = document.getElementById(id);
-            if (محتوى.style.display === 'block') {
-                محتوى.style.display = 'none';
-            } else {
-                محتوى.style.display = 'block';
-            }
-        }
-    </script>
+   <script>
+function toggleSection(id) {
+    const محتوى = document.getElementById(id);
+    if (!محتوى) return;   // حماية في حال عدم وجود العنصر
+
+    if (محتوى.style.display === 'block') {
+        محتوى.style.display = 'none';
+    } else {
+        محتوى.style.display = 'block';
+    }
+}
+</script>
 
 </body>
 
