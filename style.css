@@ -391,20 +391,3 @@ input:focus {
     font-size: 1.1rem;
 }
 
-/* زر الدخول (يمكنك تعديله حسب ستايلك الحالي) */
-.زر-الدخول {
-    display: inline-block;
-    background-color: #5c4033;
-    color: white;
-    padding: 16px 45px;
-    font-size: 1.2rem;
-    text-decoration: none;
-    border-radius: 8px;
-    margin: 20px auto;
-    transition: all 0.3s;
-}
-
-.زر-الدخول:hover {
-    background-color: #8b5a2b;
-    transform: translateY(-2px);
-}
