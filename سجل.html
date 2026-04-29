@@ -281,9 +281,7 @@ function doSearch() {
         show(DATA); 
         return; 
     }
-    var r = DATA.filter(function(p){ 
-        return p["الاسم"].indexOf(q) >= 0 || p["المدفن"].indexOf(q) >= 0; 
-    });
+  var r = DATA.filter(function(p){ return p["الاسم"].indexOf(q) >= 0 || p["المدفن"].indexOf(q) >= 0 || p["عام_الوفاة_ميلادي"].indexOf(q) >= 0 || p["عام_الميلاد_ميلادي"].indexOf(q) >= 0 || p["عام_الوفاة_هجري"].indexOf(q) >= 0 || p["عام_الميلاد_هجري"].indexOf(q) >= 0; });
     show(r);
 }
 
